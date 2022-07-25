@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Important to make website responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+   <script src="https://kit.fontawesome.com/94413aba94.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="images/favicon.ico"> 
+    <!-- Link our CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navbar Section Starts Here -->
+    <section class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="contact.html" title="Logo">
+                    <img src="images/shannu.png" alt="Restaurant Logo" class="img-responsive">
+                </a>
+            </div>
+
+            <div class="menu text-right">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="categories.html">Categories</a>
+                    </li>
+                    <li>
+                        <a href="foods.html">Foods</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <!-- Navbar Section Ends Here -->
+
+    <!-- fOOD sEARCH Section Starts Here -->
+    <section class="food-search">
+        <div class="container">
+            
+            <h2 class="text-center text-white">Fill this form to confirm your order.</h2>
+
+            <form action="#" class="order">
+                <fieldset>
+                    <legend>Selected Food</legend>
+
+                    <div class="food-menu-img">
+                        <img src="images/menu-pizza.jpg" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
+                    </div>
+    
+                    <div class="food-menu-desc">
+                        <h3>Your Food</h3>
+                        <p class="food-price">₹ xxx</p>
+
+                        <div class="order-label">Quantity</div>
+                        <input type="number" name="qty" class="input-responsive" value="1" required>
+                        
+                    </div>
+
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Delivery Details</legend>
+                    <div class="order-label">Full Name</div>
+                    <input type="text" name="full-name" placeholder="E.g. Shanmukh Magapu" class="input-responsive" required>
+
+                    <div class="order-label">Phone Number</div>
+                    <input type="tel" name="contact" placeholder="E.g. 707566xxxx" class="input-responsive" required>
+
+                    <div class="order-label">Email</div>
+                    <input type="email" name="email" placeholder="E.g. shanmukhmagapu@gmail.com" class="input-responsive" required>
+
+                    <div class="order-label">Address</div>
+                    <textarea name="address" rows="10" placeholder="E.g. Street, City, Country" class="input-responsive" required></textarea>
+
+                    <input type="submit" name="submit" value="Confirm Order" class="btn btn-primary">
+                </fieldset>
+
+            </form>
+
+        </div>
+    </section>
+    <!-- fOOD sEARCH Section Ends Here -->
+
+   
+     <!---footer-->
+     <section class="footer">
+        <h3><b>About Us</b></h3>
+        <p> We Are Here To Provide good food, good mood.
+            <br> bliss on a plate.
+            <br> healthy + delicious</p>
+         <div class="icons">
+            <a href="https://shanmukh405.github.io/My-Resume/" > 
+                <i class="fa fa-google"></i></a>
+             <a href="https://github.com/SHANMUKH405">
+             <i class="fa fa-github"></i></a>
+             <i class="fa fa-instagram"></i>
+             <a href="https://www.linkedin.com/in/shanmukh-magapu-a6639520b/">
+             <i class="fa fa-linkedin"></i></a>
+         </div>
+         <p> Made with <i class="fa fa-heart-o"></i><br> All Copyrights Reserved &copy;  <b>Shanmukh Magapu & Team 2022</b> </p>
+    </section>
+
+</body>
+</html>
