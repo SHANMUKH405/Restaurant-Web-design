@@ -92,7 +92,7 @@ fieldset{
 /* CSSS for navbar section */
 
 .logo{
-    width: 10%;
+    width: 7%;
     float: left;
 }
 .menu{
@@ -114,7 +114,7 @@ fieldset{
 /* CSS for Food SEarch Section */
 
 .food-search{
-    background-image: url(../images/bg.jpg);
+    background-image: url(https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
