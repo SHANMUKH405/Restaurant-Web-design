@@ -241,7 +241,7 @@ fieldset{
 
 @media only screen and (max-width:768px){
     .logo{
-        width: 80%;
+        width: 20%;
         float: none;
         margin: 1% auto;
     }
